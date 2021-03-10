@@ -1,0 +1,30 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.default-placeholder {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, 0.87);
+    min-width: 2rem !important;
+    height: 2.5rem;
+    .text {
+        min-width: 7rem !important;
+    }
+}
+
+@media only screen and (max-width: 1397px) {
+    body {
+        font-size: 14px;
+    }
+}

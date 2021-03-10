@@ -1,0 +1,48 @@
+.filterSiniestros {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    .title {
+        font-size: 1.875rem;
+        color: #192E47;
+        font-weight: bold;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        margin-top: 1.5625rem;
+        .column {
+            display: flex;
+            box-sizing: border-box;
+            width: 50%;
+            margin-right: 1.25rem;
+            justify-content: center;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .column-sm {
+            display: flex;
+            box-sizing: border-box;
+            width: 24%;
+            margin-right: 1.25rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .column-lg {
+            display: flex;
+            box-sizing: border-box;
+            width: 75%;
+            margin-right: 1.25rem;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .button {
+            width: 10.25rem;
+        }
+    }
+    .textField {
+        width: 100%;
+    }
+}
